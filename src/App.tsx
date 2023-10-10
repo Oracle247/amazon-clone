@@ -2,6 +2,8 @@ import React from "react";
 import Header from "./components/Header";
 import CardOne from "./components/CardOne"
 import CardTwo from "./components/CardTwo"
+import Footer from "./components/Footer"
+
 
 import PIC from './assets/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg'
 
@@ -70,14 +72,120 @@ function App() {
             <CardOne />
           </div>
 
-          <div className="flex  bg-white p-4 justify-center items-center gap-4">
-            <CardTwo />
-            <CardTwo />
-            <CardTwo />
-            <CardTwo />
-            <CardTwo />
+          <div className="flex flex-col p-4 gap-4 bg-white ">
+            <div className="flex items-center gap-4">
+              <h2 className="font-bold">Exiting Deals</h2>
+              <p className="text-xs">See More</p>
+            </div>
+            <div className="flex  justify-center items-center gap-4">
+              <CardTwo />
+              <CardTwo />
+              <CardTwo />
+              <CardTwo />
+              <CardTwo />
+            </div>
+          </div>
+
+          <div className="flex flex-col gap-3 bg-white p-4">
+            <h2 className="font-bold">International Top Sellers</h2>
+            <div className="flex justify-center items-center gap-4">
+              <div className="flex">
+                <img className='w-[70%] h-full object-cover' src={PIC} alt="" />
+              </div>
+              <div className="flex">
+                <img className='w-[70%] h-full object-cover' src={PIC} alt="" />
+              </div>
+              <div className="flex">
+                <img className='w-[70%] h-full object-cover' src={PIC} alt="" />
+              </div>
+              <div className="flex">
+                <img className='w-[70%] h-full object-cover' src={PIC} alt="" />
+              </div>
+              <div className="flex">
+                <img className='w-[70%] h-full object-cover' src={PIC} alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-4 gap-4">
+            <CardOne />
+            <CardOne />
+            <CardOne />
+            <CardOne />
+          </div>
+
+          <div className="flex flex-col gap-3 bg-white p-4">
+            <h2 className="font-bold">Popular Items This Season</h2>
+            <div className="flex justify-center items-center gap-4">
+              <div className="flex">
+                <img className='w-[70%] h-full object-cover' src={PIC} alt="" />
+              </div>
+              <div className="flex">
+                <img className='w-[70%] h-full object-cover' src={PIC} alt="" />
+              </div>
+              <div className="flex">
+                <img className='w-[70%] h-full object-cover' src={PIC} alt="" />
+              </div>
+              <div className="flex">
+                <img className='w-[70%] h-full object-cover' src={PIC} alt="" />
+              </div>
+              <div className="flex">
+                <img className='w-[70%] h-full object-cover' src={PIC} alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div className="flex flex-col gap-3 bg-white p-4">
+            <h2 className="font-bold">New International Custormers Purchased</h2>
+            <div className="flex justify-center items-center gap-4">
+              <div className="flex">
+                <img className='w-[70%] h-full object-cover' src={PIC} alt="" />
+              </div>
+              <div className="flex">
+                <img className='w-[70%] h-full object-cover' src={PIC} alt="" />
+              </div>
+              <div className="flex">
+                <img className='w-[70%] h-full object-cover' src={PIC} alt="" />
+              </div>
+              <div className="flex">
+                <img className='w-[70%] h-full object-cover' src={PIC} alt="" />
+              </div>
+              <div className="flex">
+                <img className='w-[70%] h-full object-cover' src={PIC} alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-4 gap-4">
+            <CardOne />
+            <CardOne />
+            <CardOne />
+            <CardOne />
+          </div>
+
+          <div className="flex flex-col gap-3 bg-white p-4">
+            <h2 className="font-bold">Home Decor under $20</h2>
+            <div className="flex justify-center items-center gap-4">
+              <div className="flex">
+                <img className='w-[70%] h-full object-cover' src={PIC} alt="" />
+              </div>
+              <div className="flex">
+                <img className='w-[70%] h-full object-cover' src={PIC} alt="" />
+              </div>
+              <div className="flex">
+                <img className='w-[70%] h-full object-cover' src={PIC} alt="" />
+              </div>
+              <div className="flex">
+                <img className='w-[70%] h-full object-cover' src={PIC} alt="" />
+              </div>
+              <div className="flex">
+                <img className='w-[70%] h-full object-cover' src={PIC} alt="" />
+              </div>
+            </div>
           </div>
         </main>
+
+        <Footer />
 
 
       </div>
