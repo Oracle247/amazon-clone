@@ -1,4 +1,3 @@
-import React from 'react'
 import PIC from '../../assets/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg'
 
 const index = () => {

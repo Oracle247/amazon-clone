@@ -1,4 +1,3 @@
-import React from 'react'
 import LOGO from '../../assets/pngimg.com - amazon_PNG24.png'
 
 const index = () => {
