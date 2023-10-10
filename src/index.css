@@ -1,7 +1,9 @@
+@import url(https://db.onlinewebfonts.com/c/3108eb4da4655a215801f0f4ed03ab1b?family=Amazon+Ember);
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 h2 { font-weight: 600; font-size: 1.1rem; }
 
-
+html { font-family: "Amazon Ember",'sans-serif'; }

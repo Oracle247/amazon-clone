@@ -13,7 +13,8 @@ function App() {
     <div className="flex flex-col justify-center items-center bg-[#e3e6e6]">
       <Header />
       <div className="w-[95%]">
-        <div className="flex bg-blue-400 h-[60vh] relative z-10">
+        <div className="flex justify-center pt-14 bg-[#f6efdd] h-[60vh] relative z-10">
+          <h2 className="text-4xl font-bold text-center">Shop Best Selling Categories</h2>
           <div className="flex bg-slate-200 h-14 w-full absolute bottom-0 right-0"></div>
         </div>
 
@@ -185,10 +186,10 @@ function App() {
           </div>
         </main>
 
-        <Footer />
 
 
       </div>
+      <Footer />
     </div>
   );
 }
